@@ -5,7 +5,7 @@ env:
 go: 1.4
 before_install:
   - go get golang.org/x/tools/cmd/vet
-  - go get github.com/golang/lint/golint
+  - go get golang.org/x/lint/golint
   - go get github.com/tools/godep
   - wget "https://dl.bintray.com/mitchellh/consul/${CONSUL_V}_linux_amd64.zip"
   - unzip "${CONSUL_V}_linux_amd64.zip"
